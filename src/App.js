@@ -8,10 +8,13 @@ import Home from './pages/Home';
 import Like from './pages/Like';
 import Panier from './pages/Panier';
 import Produits from './pages/Produits';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
     <div className='App'>
+      <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -20,6 +23,7 @@ const App = () => {
         <Route path="/panier" element={<Panier />} />
         <Route path="/produits" element={<Produits />} />
       </Routes>
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,288 @@
+/* Debut Nav */
+img[alt="logodbz"] {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.lien {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.lien a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.lien a:hover {
+    color: red;
+}
+.logos {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.logos i {
+    margin: 0px 20px;
+    cursor: pointer;
+}
+/* Fin Nav */
+
+/* Debut Carousel */
+.carousel3 {
+background-image: url(./img/carousel3.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+width: 100%;
+}
+
+.home-txt {
+    text-align: center;
+    padding: 15%;
+    color: white;
+}
+
+.home-txt h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.home-txt p {
+    border-top: 5px solid white;
+    font-size: 30px;
+}
+
+.btn-home {
+    border-radius: 25px;
+    padding: 10px 35px;
+}
+/* Fin Carousel */
+
+/* Debut card */
+.allcard {
+    margin-top: 3%;
+    justify-content: center;
+    position: relative;
+}
+
+img[alt="fg1"] {
+    width: 350px;
+    height: 350px;
+    transition: transform .2s;
+}
+
+img[alt="fg1"]:hover {
+    transform: scale(1.2);
+}
+
+img[alt="fg2"] {
+    width: 350px;
+    height: 350px;
+    transition: transform .2s;
+}
+
+img[alt="fg2"]:hover {
+    transform: scale(1.2);
+}
+
+img[alt="fg4"] {
+    width: 350px;
+    height: 350px;
+    transition: transform .2s;
+}
+
+img[alt="fg4"]:hover {
+    transform: scale(1.2);
+}
+
+.move-btn {
+    position: relative;
+    bottom: 20%;
+    left: 110px;
+}
+
+.btn-card {
+    padding: 10px 15px;
+    opacity: 0.9;
+    border: none;
+}
+/* Fin Card */
+
+/* Debut Section GrandeImage */
+.fd-img {
+    background-image: url(./img/fond-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.fd-img h1 {
+    color: white;
+    text-align: center;
+    padding: 20%;
+    font-size: 70px;
+}
+/* Fin Section GrandeImage */
+
+/* Debut Footer */
+footer {
+    background-color: #F0F0F0;
+    padding: 10px 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.big-footer {
+ display: flex;
+ justify-content: space-evenly;
+}
+footer h5 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer i {
+    font-size: 20px;
+    margin: 10px;
+}
+
+footer p {
+    color: gray;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style-type: none;
+    text-align: start;
+    margin: 10px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+.cc-icone {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.cc-icone i {
+    font-size: 40px;
+    margin: 0px 5px;
+}
+/* Fin Footer */
+
+/* Debut About */
+.banner-black {
+    background-image: url(./img/fondNoir.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vh;
+}
+
+.banner-black h1 {
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.about-app {
+    margin-bottom: 5%;
+}
+
+.about-container{
+    display: flex;
+    margin: 0 10%;
+    margin-top: 2%;
+}
+
+.about-text {
+    margin-left: 30px;
+}
+
+.about-p {
+    border-left: 3px solid rgb(236, 235, 235);
+    padding-left: 30px;
+}
+
+img[alt="aboutimg"] {
+    width: 500px;
+    height: 500px;
+}
+/* Fin page About */
+
+/* Debut page Produits */
+.banner-produits{
+    background-image: url(./img/fondNoir.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vh;
+}
+
+.banner-produits h1 {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.banner-produits p {
+    color: white;
+    text-align: center;
+}
+/* Fin Page Produits */
+
+/* Debut page Contact */
+.contact-app {
+    margin-bottom: 5%;
+}
+.banner-contact{
+    background-image: url(./img/fondNoir.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vh;
+}
+
+.banner-contact h1 {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.contact-container {
+    display: flex;
+    margin: 0 10%;
+    margin-top: 2%;
+}
+
+.contact-text {
+    margin-left: 30px;
+}
+
+form input {
+    margin: 10px 0;
+    width: 400px;
+}
+
+form textarea {
+    margin: 10px 0;
+}
+.btn-contact {
+    padding: 5px 45px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+/* Fin page Contact */

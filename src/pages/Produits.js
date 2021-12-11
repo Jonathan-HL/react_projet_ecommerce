@@ -3,7 +3,10 @@ import React from 'react';
 const Produits = () => {
     return (
         <div className='produits-app'>
-            <h1>Produits page</h1>
+            <div className='banner-produits'>
+                <h1>Product</h1>
+                <p>New Arrival Figurine Collection</p>
+            </div>
         </div>
     );
 };
