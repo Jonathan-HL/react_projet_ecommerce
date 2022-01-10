@@ -10,18 +10,20 @@ import Panier from './pages/Panier';
 import Produits from './pages/Produits';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import ProduitsDedail from './components/ProduitsDedail';
 
 const App = () => {
   return (
     <div className='App'>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="//*" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/like" element={<Like />} />
         <Route path="/panier" element={<Panier />} />
         <Route path="/produits" element={<Produits />} />
+        <Route path="/produits/:id" element={<ProduitsDedail />} />
       </Routes>
       <Footer />
     </div>

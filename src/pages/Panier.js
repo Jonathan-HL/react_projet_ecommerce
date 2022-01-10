@@ -3,7 +3,9 @@ import React from 'react';
 const Panier = () => {
     return (
         <div className='panier-app'>
-            <h1>Panier page</h1>
+            <div className='banner-panier'>
+                    <h1>PANIER</h1>
+             </div>
         </div>
     );
 };

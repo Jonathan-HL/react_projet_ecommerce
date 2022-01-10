@@ -3,7 +3,9 @@ import React from 'react';
 const Like = () => {
     return (
         <div className='like-app'>
-            <h1>Like page</h1>
+            <div className='banner-like'>
+                    <h1>COUP DE COEUR</h1>
+             </div>
         </div>
     );
 };
